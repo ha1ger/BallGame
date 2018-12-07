@@ -189,7 +189,7 @@
     evilCircle.collisionDetect();
     para[0].textContent = "还剩余" + restball + "个球";
     time++;
-    if(time === 120){
+    if(time === 60){
       time1++;
       para[1].textContent =para[1].textContent = '本次挑战时间为' + time1 + '秒';
       time = 0;
